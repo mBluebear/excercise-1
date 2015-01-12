@@ -1,58 +1,54 @@
 @font-face {
-  font-family: 'custom-fonts';
-  src: url('../fonts/custom-fonts.eot?45199996');
-  src: url('../fonts/custom-fonts.eot?45199996#iefix') format('embedded-opentype'),
-       url('../fonts/custom-fonts.woff?45199996') format('woff'),
-       url('../fons/custom-fonts.ttf?45199996') format('truetype'),
-       url('../fonts/custom-fonts.svg?45199996#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'fontello';
+    src: url('../fonts/fontello.eot?36484303');
+    src: url('../fonts/fontello.eot?36484303#iefix') format('embedded-opentype'),
+    url('../fonts/fontello.woff?36484303') format('woff'),
+    url('../fonts/fontello.ttf?36484303') format('truetype'),
+    url('../fonts/fontello.svg?36484303#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'custom-fonts';
-    src: url('../font/fontello.svg?45199996#fontello') format('svg');
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?36484303#fontello') format('svg');
   }
 }
 */
 
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "custom-fonts";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
 
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
 
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
 
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
 
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
 
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-scissor:before { content: '\e800'; } /* '' */
-.icon-wink:before { content: '\e801'; } /* '' */
-.icon-search:before { content: '\e802'; } /* '' */
-.icon-pin:before { content: '\e803'; } /* '' */
-.icon-quote-left:before { content: '\e804'; } /* '' */
-.icon-quote-right:before { content: '\e805'; } /* '' */
+.icon-gift_open:before { content: '\e800'; } /* '' */
+.icon-gift_unopen:before { content: '\e801'; } /* '' */
